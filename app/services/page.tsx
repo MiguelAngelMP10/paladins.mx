@@ -4,7 +4,7 @@ import { Image } from "@nextui-org/react";
 
 export default function ServicesPage() {
   return (
-    <section className="py-16  text-center" data-aos="fade-up" id="features">
+    <div className="py-16  text-center" data-aos="fade-up" id="features">
       <h2 className="text-5xl font-bold mb-10">Servicios</h2>
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="feature p-4" data-aos="fade-up" data-aos-delay="100">
@@ -18,7 +18,7 @@ export default function ServicesPage() {
           <h3 className="text-3xl font-bold my-4">
             Desarrollo de software a medida
           </h3>
-          <p className="text-lg">
+          <p className="text-lg text-justify">
             Capacidad para crear soluciones tecnológicas completamente adaptadas
             a las necesidades exclusivas de cada cliente.
           </p>
@@ -32,7 +32,7 @@ export default function ServicesPage() {
             />
           </div>
           <h3 className="text-3xl font-bold  my-4">Servicios REST</h3>
-          <p className="text-lg">
+          <p className="text-lg text-justify">
             Nuestros Servicios REST proporcionan una comunicación eficiente y
             escalable entre sistemas, mejorando la interoperabilidad y
             facilitando la integración para una experiencia digital fluida y
@@ -63,7 +63,7 @@ export default function ServicesPage() {
           <h3 className="text-3xl font-bold my-4">
             Soporte Técnico y Mantenimiento
           </h3>
-          <p className=" text-lg">
+          <p className=" text-lg text-justify">
             Ofrecemos soporte continuo y servicios de mantenimiento para
             asegurar que las soluciones implementadas funcionen de manera óptima
             y se mantengan actualizadas.
@@ -71,7 +71,7 @@ export default function ServicesPage() {
         </div>
         <div className="feature p-4" data-aos="fade-up" data-aos-delay="400">
           <h3 className="text-3xl font-bold my-4">Innovación Tecnológica</h3>
-          <p className="text-lg">
+          <p className="text-lg text-justify">
             Integración de las últimas tecnologías y tendencias del mercado para
             proporcionar soluciones innovadoras y mantener a nuestros clientes a
             la vanguardia de la transformación digital.
@@ -79,7 +79,7 @@ export default function ServicesPage() {
         </div>
         <div className="feature p-4" data-aos="fade-up" data-aos-delay="500">
           <h3 className="text-3xl font-bold my-4">Seguridad</h3>
-          <p className="text-lg">
+          <p className="text-lg text-justify">
             Implementación de estrictas medidas de seguridad para proteger los
             datos y la información crítica del cliente, garantizando la
             confidencialidad y la integridad de sus sistemas.
@@ -87,7 +87,7 @@ export default function ServicesPage() {
         </div>
         <div className="feature p-4" data-aos="fade-up" data-aos-delay="600">
           <h3 className="text-3xl font-bold my-4">Escalabilidad</h3>
-          <p className="text-lg">
+          <p className="text-lg text-justify">
             Diseño de soluciones escalables que pueden crecer y adaptarse junto
             con el negocio del cliente, permitiendo la incorporación de nuevas
             funcionalidades y usuarios sin afectar el rendimiento.
@@ -97,7 +97,7 @@ export default function ServicesPage() {
           <h3 className="text-3xl font-bold my-4">
             Consultoría y Asesoramiento
           </h3>
-          <p className="text-lg">
+          <p className="text-lg text-justify">
             Ofrecemos servicios de consultoría para ayudar a nuestros clientes a
             definir sus necesidades y objetivos tecnológicos, y asesoramos sobre
             las mejores estrategias y tecnologías para alcanzarlos.
@@ -107,13 +107,13 @@ export default function ServicesPage() {
           <h3 className="text-3xl font-bold my-4">
             Interfaz de Usuario y Experiencia de Usuario (UI/UX)
           </h3>
-          <p className="text-lg">
+          <p className="text-lg text-justify">
             Diseño de interfaces intuitivas y atractivas que mejoran la
             experiencia del usuario y facilitan la adopción y el uso del
             software.
           </p>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
