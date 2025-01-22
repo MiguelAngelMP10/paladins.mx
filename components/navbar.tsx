@@ -23,15 +23,15 @@ export const Navbar = () => {
 
     return (
 
-        <NextUINavbar maxWidth="xl" position="sticky" onMenuOpenChange={setIsMenuOpen}>
+        <NextUINavbar maxWidth="xl" className="mt-12" position="sticky" onMenuOpenChange={setIsMenuOpen}>
             <NavbarContent>
                 <NavbarMenuToggle
                     aria-label={isMenuOpen ? "Close menu" : "Open menu"}
                     className="md:hidden"
                 />
                 <NavbarBrand>
-                    <NextLink className="flex justify-start items-center gap-1" href="/">
-                        <Image alt="Logo" className="h-26 w-32 mt-5" src="/logo2.png"/>
+                    <NextLink className="flex justify-start items-center " href="/">
+                        <Image alt="Logo" className="h-26 w-32 shadow-lg shadow-violet-600" src="/logo2.png"/>
                     </NextLink>
                 </NavbarBrand>
             </NavbarContent>

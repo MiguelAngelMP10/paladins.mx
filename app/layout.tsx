@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   icons: {
-    icon: "/favicon.ico",
+    icon: "/logo2-.png",
   },
 };
 
@@ -36,12 +36,12 @@ export default function RootLayout({
 
   return (
     <html suppressHydrationWarning lang="en">
-      <head>
-        <title />
-      </head>
-      <body
+    <head>
+      <title/>
+    </head>
+    <body
         className={clsx(
-          "min-h-screen bg-background font-sans antialiased",
+            "min-h-screen bg-background font-sans antialiased",
           fontSans.variable,
         )}
       >
