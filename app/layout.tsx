@@ -51,15 +51,15 @@ export default function RootLayout({
             <main className="container mx-auto w-full pt-16 px-6 flex-grow">
               {children}
             </main>
-            <footer className="w-full flex items-center justify-center py-3">
+            <footer className="w-full flex flex-col items-center justify-center py-4 px-3 text-sm text-center">
               <Link
                 isExternal
-                className="flex items-center gap-1 text-current"
+                className="tap-highlight-transparent outline-none text-current no-underline hover:opacity-80 active:opacity-70 transition-opacity flex flex-col items-center gap-1"
                 href="https://paladins.mx/"
                 title="paladins.mx"
               >
                 <span className="text-default-600"> &copy; {currentYear}</span>
-                <p className="text-primary">paladins.mx</p>
+                <p className="text-blue-600 font-medium">paladins.mx</p>
                 <span className="text-default-600">
                   Todos los derechos reservados.
                 </span>
