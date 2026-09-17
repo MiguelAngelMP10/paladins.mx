@@ -103,7 +103,9 @@ export default function RootLayout({
           <div className="relative flex flex-col min-h-screen">
             <Navbar />
 
-            <main className="w-full pt-24 pb-16 flex-grow">{children}</main>
+            <main className="w-full pt-20 sm:pt-24 pb-16 flex-grow">
+              {children}
+            </main>
 
             {/* Premium Footer */}
             <footer className="w-full border-t border-slate-200/80 dark:border-white/10 bg-slate-50/70 dark:bg-[#070a14]/90 backdrop-blur-xl transition-colors">

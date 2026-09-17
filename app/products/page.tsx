@@ -171,12 +171,12 @@ export default function ProductsPage() {
         </p>
 
         {/* Category filter tabs */}
-        <div className="pt-6 flex justify-center">
+        <div className="pt-6 flex justify-center max-w-full overflow-x-auto pb-2 scrollbar-none">
           <Tabs
             classNames={{
               tabList:
-                "glass-panel p-1 rounded-full border border-slate-200/80 dark:border-white/10",
-              tab: "rounded-full px-5 py-2 text-xs sm:text-sm font-medium",
+                "glass-panel p-1 rounded-full border border-slate-200/80 dark:border-white/10 flex-nowrap",
+              tab: "rounded-full px-4 sm:px-5 py-2 text-xs sm:text-sm font-medium whitespace-nowrap",
             }}
             color="primary"
             selectedKey={selectedCategory}
